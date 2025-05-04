@@ -355,11 +355,13 @@ Location info using: Latitude/Longitude
 Latitude: latitude
 Longitude: longitude
 Size by: event_count
+
 🎨 Color Settings
 Coloring Type: Heatmap
 Color by: event_count
 Aggregation for color: Sum of Values
 Color palette: Green to Red
+
 📊 Metric Settings
 Metric Label: label
 Metric Value: event_count
@@ -405,7 +407,7 @@ If you're trying to break into cybersecurity or just want to get your hands dirt
 
 All screenshots for each step are included in the project folder to guide you along the way!
 
-💬 Questions or Feedback?
+Questions or Feedback?
 
-Shoot me a message — always happy to connect with fellow cyber defenders! 🛡️
+Shoot me a message, always happy to connect with fellow cyber defenders! 🛡️
 (You can also fork this and try your own twist. Make it yours.)
