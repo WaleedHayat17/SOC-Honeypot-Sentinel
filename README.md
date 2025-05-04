@@ -7,7 +7,7 @@
 
 
 
-"Where Blue Team meets the Cloud ☁️💥”
+"Where Blue Team meets the Cloud ☁️”
 A hands-on cybersecurity walkthrough using Azure Virtual Machines, Microsoft Sentinel, and KQL to simulate a real-world SOC investigation.
 
 🧠 What Is This?
@@ -20,16 +20,16 @@ I’ve included screenshots at each step 📸 so you can follow along visually a
 
 By completing this project, you'll gain hands-on experience with:
 
-✅ Deploying and configuring an Azure Windows VM (honeypot)
-✅ Creating a Log Analytics Workspace and integrating Sentinel
-✅ Writing KQL queries to filter and investigate logs
-✅ Using a custom PowerShell script to enrich logs with GeoIP data
-✅ Visualizing attack data on a real-time world map
-✅ Understanding the value of a cloud-based SIEM solution
+Deploying and configuring an Azure Windows VM (honeypot)
+Creating a Log Analytics Workspace and integrating Sentinel
+Writing KQL queries to filter and investigate logs
+Using a custom PowerShell script to enrich logs with GeoIP data
+Visualizing attack data on a real-time world map
+Understanding the value of a cloud-based SIEM solution
 
-🧰 Tools & Tech Used
+Tools & Tech Used
 
-Microsoft Azure 🌐
+Microsoft Azure 
 Azure Sentinel (SIEM)
 Log Analytics Workspace
 Workbooks (for visualizing logs on a map)
@@ -38,7 +38,7 @@ ipgeolocation.io (API used to enrich logs with location data)
 Remote Desktop Protocol (RDP)
 Windows Event Viewer
 KQL (Kusto Query Language)
-🔧 Step-by-Step Breakdown (With Screenshots!)
+Step-by-Step Breakdown (With Screenshots!)
 
 
 
@@ -380,7 +380,7 @@ The data is pulled and processed using a custom PowerShell script that taps into
 
 
 <img width="1440" alt="Screenshot 2025-04-30 at 3 24 10 AM" src="https://github.com/user-attachments/assets/a17490bb-e361-48fc-8592-5f9a60e7a3b2" />
-Note: The map is focused solely on failed RDP login attempts — it won’t display other types of attacks your VM might be hit with. However, after letting it run for 24 hours, you’ll start to see a noticeable difference on the attack map, with more red zones lighting up as failed attempts from around the world get logged and visualized.
+Note: The map is focused solely on failed RDP login attempts, it won’t display other types of attacks your VM might be hit with. However, after letting it run for 24 hours, you’ll start to see a noticeable difference on the attack map, with more red zones lighting up as failed attempts from around the world get logged and visualized.
 <img width="1440" alt="Screenshot 2025-05-01 at 10 07 31 PM" src="https://github.com/user-attachments/assets/52771e49-b14d-4862-b18b-f19ac1043022" />
 
 Step 12: Shutting Down Resources
@@ -399,7 +399,7 @@ If you don’t remove the resources, they’ll keep running and start using up y
 
 This lab really helped me understand what it’s like to think like a Blue Teamer in a real-world environment. Seeing actual attack attempts come in was both scary and fascinating, and building visual dashboards made it feel alive.
 
-If you're trying to break into cybersecurity or just want to get your hands dirty with SIEM tools — this is the perfect place to start 
+If you're trying to break into cybersecurity or just want to get your hands dirty with SIEM tools, this is the perfect place to start 
 
 📸 Screenshots
 
