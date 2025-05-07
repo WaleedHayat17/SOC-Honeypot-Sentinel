@@ -12,7 +12,7 @@ A hands-on cybersecurity walkthrough using Azure Virtual Machines, Microsoft Sen
 
 🧠 What Is This?
 
-Welcome to my Azure SOC Honeypot Project! This lab is all about exploring how attackers behave when they encounter a vulnerable system — and how defenders can detect and investigate that behavior using Microsoft Sentinel, Log Analytics, and KQL. Think of it as your own digital battleground: I set up the bait (a honeypot VM), tracked the incoming attacks, and then visualized them on a global map 🌍📍.
+Welcome to my Azure SOC Honeypot Project! This lab is all about exploring how attackers behave when they encounter a vulnerable system —and how defenders can detect and investigate that behavior using Microsoft Sentinel, Log Analytics, and KQL. Think of it as your own digital battleground: I set up the bait (a honeypot VM), tracked the incoming attacks, and then visualized them on a global map. 
 
 I’ve included screenshots at each step 📸 so you can follow along visually and build your own version with ease!
 
@@ -27,7 +27,7 @@ Using a custom PowerShell script to enrich logs with GeoIP data
 Visualizing attack data on a real-time world map
 Understanding the value of a cloud-based SIEM solution
 
-Tools & Tech Used
+Tools & Tech Used:
 
 Microsoft Azure 
 Azure Sentinel (SIEM)
@@ -54,6 +54,7 @@ Each step includes real screenshots from my environment to guide you through the
 🔹 Step 1: Azure Setup & Free Credits
 Create a free Azure account (comes with $200 credit!)
 Log into portal.azure.com
+
 
 <img width="1440" alt="Screenshot 2025-05-01 at 8 10 17 PM" src="https://github.com/user-attachments/assets/a0a89e94-e5f1-4275-a220-f8eee3c17507" />
 
